@@ -1,0 +1,202 @@
+
+/* Desktop */
+@media (min-width: 768px){
+    .navbar-collapse {
+    padding-left: 0px;
+  }
+  
+  .pull-up{
+    margin-top: 7px;
+  }
+  
+  .pull-up-sm{
+    margin-top: -200px;
+  }
+  
+  .col-disable{
+    display: none;
+  }
+  
+  .col-inner{
+    margin: 0px;
+  }
+    
+  .header .navbar-default .navbar-nav{
+    /*margin-top: -7px;*/
+    width: 100%;
+  }
+  
+  .header .navbar-default .navbar-nav > li a{
+    margin-left: 0px;
+    margin-right: 7px;
+  }
+  
+  .header .navbar-default .navbar-nav > li ul.dropdown-md,
+  .header .navbar-default .navbar-nav > li ul.dropdown-sm{
+    width: auto;
+    padding: 0px;
+  }
+  
+  .header .navbar-default .navbar-nav > li ul.dropdown-md li,
+  .header .navbar-default .navbar-nav > li ul.dropdown-sm li{
+    padding: 3px 5px;
+  }
+  
+  .header .navbar-default .navbar-nav > li ul.dropdown-md li a,
+  .header .navbar-default .navbar-nav > li ul.dropdown-sm li a{
+    margin-right: 0px;
+  }
+  
+  /* Inner Page */
+    
+  .inner-page .page-sidebar{
+    margin-bottom: 30px;
+  }
+  
+  /* Masonry Grid */
+  
+  .grid .item { 
+    width: 33.3%;
+  }
+  
+  /* Footer */
+  
+  .footer .footer-widget{
+    margin-bottom: 30px;
+  }
+
+  .header .navbar-default {
+    /*margin-top: 24px;*/
+    /*left: 7px;*/
+    /*width:  620px;*/
+  }
+
+  .header .navbar-default .navbar-nav > li > a span.link-title{
+    position: absolute;
+    bottom: 0px;
+    right: 3px;
+    font-size: 12px;
+    font-weight: 400;
+    text-shadow: 0px 1px 2px rgba(0,0,0,0.1);
+  }
+
+  .header .navbar-default .navbar-nav > li > a span.link-title-areas{
+    position: absolute;
+    bottom: 13px;
+    right: 17px;
+    font-size: 12px;
+    font-weight: 400;
+    text-shadow: 0px 1px 2px rgba(0,0,0,0.1);
+  }
+
+  .header .navbar-default .navbar-nav > li > a span.link-title-intensive{
+    position: absolute;
+    bottom: 13px;
+    right: 2px;
+    font-size: 12px;
+    font-weight: 400;
+    text-shadow: 0px 1px 2px rgba(0,0,0,0.1);
+  }  
+
+  .header .navbar-default .navbar-nav > li > a i.link-icon{
+    display: inline;
+    position: absolute;
+    top: 5px;
+    left: 6px;
+    font-size: 15px;
+  }
+
+  .header .navbar-default .navbar-nav > li > a{
+    position: relative;
+    width: 62px;
+    height: 62px;
+    margin-left: 0px;
+    margin-bottom: 7px;
+    /*color: #fff;*/
+    /*border-radius: 4px;*/
+    /*background: orange;*/
+    border: 2px solid transparent;
+  }
+
+  .header .logo-tablet {
+    display: inline;
+    padding-left: 0px;
+  }
+
+  .logo h1 {
+    margin: 0;
+    font-size: 30px;
+  }
+
+  #logo-small {
+    display: none;
+  }
+
+  .row {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .divHeader {
+    margin-top: 0px;
+    font-size: 31px;
+  }
+
+  .middle-col {
+    padding: 0;
+  }
+
+  .col-5-override {
+    width: 40%;
+  }
+
+  .col-7-override {
+    width: 60%;
+  }
+
+  .header-phone-contact {
+    display:none;
+  }
+
+  .home-intensive-description {
+    font-size: 32px;
+  }
+
+  .home-why {
+    font-size: 30px;
+  }
+
+  .tablet-container-override {
+    width: 100%;
+  }
+
+  .nav li {
+    width: 16.6666%; 
+    height: 130px; 
+  }
+
+  .header .navbar-default .navbar-nav > li > a {
+    height: 100%;
+    width: 100%;
+  }
+
+  .nav li {
+  /*margin-bottom: 5px;*/
+    width: 16.6666%;
+  }
+
+  .heading-main {
+    font-size: 18px;
+  }
+
+  span#about, span#intensive-courses, span#driving-lesson-prices, span#areas-covered, span#contact { 
+    margin-top: -100px;
+    padding-bottom: 100px; 
+    display: block;
+  }
+
+  #message {
+    height: 170px;
+  }
+}
+

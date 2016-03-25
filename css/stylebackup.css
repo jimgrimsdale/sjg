@@ -1,0 +1,125 @@
+.white{
+  color:#fff !important;
+}
+
+.black{
+  color:#444 !important;
+}
+
+.grey{
+  color:#bbb !important;
+}
+
+.red{
+  color:#e63131 !important;
+}
+
+.green{
+  color:#6fae26 !important; 
+}
+
+.lblue{
+  color:#14b9e8 !important;
+}
+
+.blue{
+  color:#0275d7 !important;
+}
+
+.brown{
+  color:#c27256 !important;
+} 
+
+.orange{
+  color:#ed450c !important;
+}
+
+.purple{
+  color:#702583 !important;
+}
+
+.pink{
+  color: #fb226f !important;
+}
+
+.yellow{
+  color: #ffb800 !important;
+}
+
+/* Backgrounds */
+
+.br-white{
+  background:#fff !important;
+}
+
+.br-black{
+  background: #444 !important;
+}
+
+.br-red{
+  background:#e63131 !important;
+}
+
+.br-green{
+  background:#6fae26 !important;
+}
+
+.br-lblue{
+  background:#14b9e8 !important;
+}
+
+.br-blue{
+  background:#0275d7 !important;
+}
+
+.br-brown{
+  background:#c27256 !important;
+}
+
+.br-orange{
+  background:#ed450c !important;
+}
+
+.br-purple{
+  background:#702583 !important;
+}
+
+.br-pink{
+  background: #fb226f !important;
+}
+
+.br-yellow{
+  background: #ffb800 !important;
+}
+
+.br-green {
+  background: #31E636 !important;
+}
+
+.br-intensive-yellow {
+  background: rgb(189, 239, 8) !important;
+}
+
+.br-intensive-blue {
+  background: #010055;
+}
+
+.br-prices-green {
+  background: #0DC600 !important;
+}
+
+.br-prices-dblue {
+  background: #A60000 !important;
+}
+
+.br-prices-red {
+  background: #D30000 !important;
+}
+
+.br-home-default {
+  background: #0A0069 !important;
+}
+
+.br-home-intensive {
+  background: #D30000 !important;
+}

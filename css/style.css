@@ -1,0 +1,646 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
+body{
+  background:#000;
+  /*font-family: 'Open Sans', sans-serif;*/
+  font-size:17px;
+  -webkit-font-smoothing: antialiased;
+  font-weight:400;
+}
+
+h1,h2,h3,h4,h5,h6{
+  /*font-family: 'Open Sans', sans-serif;*/
+  font-weight:400;
+}
+
+.wrapper {
+  /*margin-top: 10px;*/
+}
+
+.container-main {
+  padding-top: 120px;
+}
+.white{
+  color:#fff !important;
+}
+
+/*a:hover{
+  text-decoration: none;
+  color: #10DBD2;
+}*/
+
+a:hover,a:active,a:focus {
+  outline: 0;
+  text-decoration: none;
+}
+
+
+
+strong {
+  font-weight: 400 !important;
+}
+
+.linkIntensiveCourses {
+  color: #1E0D78;;
+}
+
+.social a i{
+   display:inline-block;
+   width:40px;
+   height:40px;
+   font-size:15px;
+   line-height:40px;
+   text-decoration:none;
+   text-align:center;
+   color:#fff;
+   -webkit-transition: all 1.5s ease;
+   -moz-transition: all 1.5s ease;
+   -ms-transition: all 1.5s ease;
+   -o-transition: all 1.5s ease;
+   transition: all 1.5s ease;
+}
+
+.social a.facebook i{
+  background:#1e78ae;
+}
+
+.header{
+  position: fixed;
+  z-index: 99;
+  background-color: #070921;
+  width: 100%;
+  margin-bottom: 17px;  
+  height: 130px;
+}
+
+.header .navbar {
+  min-height: 0px;
+  margin-bottom: 0px;
+}
+
+.header .navbar-default{
+  background: none;
+  border: 0px;
+}
+
+.header .navbar-default .navbar-collapse{
+  border: 0px;
+  box-shadow: none;
+  padding: 0px 10px;
+  margin-top: 0px;
+  height: auto;
+  background-color: #070921;
+}
+
+.header .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+  background: none;
+}
+
+.header .navbar-default .navbar-toggle{
+  margin-top: -126px;
+  margin-bottom: 0px;
+  margin-right: 0;
+  border: 0px;
+  border-radius: 2px;
+  padding: 13px 15px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.header .navbar-default .navbar-nav > li > a{
+  width: auto;
+  height: auto;
+  padding: 8px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  /*background: none !important;*/
+  /*border-radius: 0px;*/
+}
+
+.header .navbar-default .navbar-nav > li > a{
+  position: relative;
+/*  width: 100px;
+  height: 100px;*/
+/*  margin-left: 7px;*/
+  margin-bottom: 7px;
+  /*color: #fff;*/
+  /*border-radius: 4px;*/
+  -webkit-transition: all 0.15s linear;
+  -moz-transition: all 0.15s linear;
+  -ms-transition: all 0.15s linear;
+  -o-transition: all 0.15s linear;
+  transition: all 0.15s linear;
+  /*background: #032AB8;*/
+  border: 2px solid transparent;
+}
+
+
+
+.header .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+  opacity: 0.8;
+}
+
+.header .navbar-default .navbar-nav > li > a:hover{
+  box-shadow: none;
+}
+
+.header .navbar-default .navbar-nav > .open > a,
+.header .navbar-default .navbar-nav > .open > a:hover,
+.header .navbar-default .navbar-nav> .open > a:focus{
+  box-shadow: none;
+}
+
+.navbar-header a {
+  font-size: 22px;
+}
+
+.navbar-nav {
+  margin-left:0px;
+  margin-right:0px;
+}
+
+.navbar-collapse {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+ .header .navbar-default .navbar-nav > li > a i.link-icon{
+    display: none;
+  }
+  
+
+.header .navbar-default .navbar-nav > .active > a {
+  /*border: 2px solid yellow;*/
+}
+
+
+/*********************************************
+  - SETTINGS FOR BANNER CONTAINERS  -
+**********************************************/
+
+.tp-banner-container{
+  width:100%;
+  position:relative;
+  padding:0;
+  background: #343434;
+}
+
+.tp-banner{
+  width:100%;
+  position:relative;
+  overflow: hidden;
+}
+
+.tp-banner ul{
+  display: none;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header .logo-tablet {
+  display: none;
+}
+
+.heading-main {
+  font-size: 19px;
+/*  font-family: 'Open Sans',
+  sans-serif;*/
+  line-height: 27px;
+  margin: 0;
+}
+
+#logo-small {
+  font-size: 24px;
+}
+
+.inner-page {
+  /*padding: 26px 0;*/
+  font-family: Raleway, Helvetica, Arial;
+}
+
+.container.section {
+  padding: 20px 0;
+}
+
+.navbar-default .navbar-nav>li>a.icon-1 {
+  background-color: #ffffff;
+  color: black;
+}
+
+.navbar-default .navbar-nav>li>a.icon-2 {
+  background-color: #f6f5f2;
+  color: black;
+}
+
+.navbar-default .navbar-nav>li>.icon-3 {
+  background-color: #4A5F70;
+  color: white;
+}
+
+.navbar-default .navbar-nav>li>.icon-4 {
+  background-color: #eeede9;
+  color: black;
+}
+
+.navbar-default .navbar-nav>li>.icon-5 {
+  background-color: #7accc8;
+  color: black;
+}
+
+.navbar-default .navbar-nav>li>.icon-6 {
+  background-color: #2D2D2D;
+  color: white;
+}
+
+.introductory-offer-container {
+  font-weight: 400;
+}
+
+.introductory-offer {
+  font-size: 20px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.or {
+  font-weight: 600;
+}
+
+.introductory-offer-subtext{
+  font-size: 10px;
+}
+
+.inner-page.main {
+  color: black;
+  background-color: #ffffff;
+}
+.inner-page span#about {
+  background-color: #ffffff;
+}
+
+
+.inner-page.about {
+  background-color: #f6f5f2;
+  color: black;
+}
+.inner-page span#intensive-courses {
+  background-color: #f6f5f2;
+}
+
+
+.inner-page.intensive {
+  background-color: #4A5F70;
+  /*color: black;*/
+}
+.inner-page span#driving-lesson-prices {
+  background-color: #4A5F70;
+}
+
+
+.inner-page.prices {
+  color: black;
+  background-color: #eeede9;
+}
+.inner-page span#areas-covered {
+  background-color: #eeede9;
+}
+
+
+.inner-page.areas {
+  color: black;
+  background-color: #7accc8;
+}
+.inner-page span#contact {
+  background-color: #7accc8;
+}
+
+
+.inner-page.contact {
+  background-color: #2D2D2D;
+}
+
+
+.inner-page .page-title{
+  padding: 15px 20px;
+  border-radius: 2px;
+  box-shadow: inset 0px 0px 0px 4px rgba(0,0,0,0.1);
+}
+
+.pricing-item{
+  position: relative;
+  margin: 0px auto;
+  /*margin-bottom: 20px;*/
+  padding: 20px;  
+  /*text-align: center;*/
+/*  border-radius: 6px;
+  box-shadow: inset 0px 0px 0px 4px rgba(0,0,0,0.1);*/
+}
+
+.pricing-table {
+  margin-top: 10px;
+}
+
+.prices-driving-lesson {
+  width: 70%;
+}
+
+.intensive-price {
+  margin-top: 24px;
+}
+
+.pricing-item span.p-price{
+  display: block;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 300;
+}
+
+.pricing-item span.p-price span{
+  font-size: 20px;
+}
+
+.pricing-item h4{
+  margin: 0px;
+  margin-bottom: 25px;
+  font-size: 35px;
+  font-weight: 300;
+}
+
+
+.pricing-item ul{
+  text-align: left;
+}
+
+.pricing-item ul li{
+  font-size: 17px;
+  line-height: 25px;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px dashed rgba(0,0,0,0.2);
+}
+
+.pricing-item ul li:first-child{
+  padding-top: 15px;
+  border-top: 1px dashed rgba(0,0,0,0.2);
+}
+
+
+.pricing-item a.btn{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px 16px;
+}
+
+.pricing-item.lesson-prices.intensive {
+  margin-top: 10px;
+}
+
+.lnkTel {
+  color: #1E0D78;
+}
+
+.gift-vouchers {
+  box-shadow: inset 0px 0px 0px 4px rgba(0,0,0,0.1);
+  padding: 20px;
+  border-radius: 36px;
+  text-align: center;
+  font-size: 23px;
+  font-weight: 600;
+  margin: 0 20px;
+}
+
+.pricing-item ul li.giftVouchers {
+  /*background-color: rgb(242, 39, 39);*/
+  box-shadow: inset 0px 0px 0px 4px rgba(0,0,0,0.1);
+  border-radius: 36px;
+  height: 65px;
+  padding: 20px;
+  color: black;
+  border-bottom: none;
+  font-size: 23px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+}
+
+.pricing-item ul li.giftVouchers.right {
+  margin-top: 21px;
+}
+
+.inner-page .page-mainbar h3{
+  margin: 0px;
+  margin-bottom: 10px;
+  padding-bottom: 8px;
+  font-size: 25px;
+  border-bottom: 1px solid #2a2a2a;
+}
+
+.inner-page.contact .page-mainbar h3, .inner-page.intensive .page-mainbar h3 {
+  border-bottom: 1px solid white;
+}
+
+
+.inner-page .contactus-content .content-item{
+  max-width: 250px;
+  margin: 40px auto;
+  text-align: center;
+  height: 170px;
+}
+
+.inner-page .contactus-content .content-item i{
+  display: block;
+  font-size: 65px;
+  margin-bottom: 20px;
+  color: #2a6496;
+}
+
+.inner-page .contactus-content .content-item h4{
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.inner-page .contactus-content .content-item p{
+  font-size: 13px;
+  line-height: 23px;
+}
+
+.facebook-container {
+  width: 60px;
+  height: 60px;
+  background-color: #1e78ae;
+  border-radius: 10%;
+  margin: 0 auto 25px auto;
+}
+
+.inner-page .contactus-content .content-item .facebook-container .fa-facebook {
+  position: relative;
+  top: 6px;
+  left: 5px;
+  font-size: 58px;
+}
+
+#contact-form {
+  margin-top: 30px;
+}
+
+#message {
+  height: 200px;
+}
+
+.header-phone a {
+  color: white;
+}
+
+.header-phone-contact a {
+  font-size: 19px;
+  margin-top: -8px;
+}
+
+.home-intensive-description {
+  font-weight: 400;
+  font-size: 19px;
+  padding: 10px 10px 10px 19px;
+  background-color: rgb(229, 255, 115);
+}
+
+.home-why {
+  padding-bottom: 6px;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.wrapperResources {
+   width: 100%;
+   display: inline-block;
+   position: relative;
+   margin-top: 3px;
+}
+.wrapperResources:after {
+  padding-top: 16.6%;
+  display: block;
+  content: '';
+}
+.resources {
+  background: rgba(191, 0, 0, 1) !important;
+  padding-top: 12px;
+  box-shadow: inset 0px 0px 0px 4px white;
+  position: absolute;
+  top: 0; bottom: 0; right: 0; left: 0;
+}
+
+.displayOnDesktop {
+  display: none;
+}
+
+.imgResource:hover{
+  opacity: 0.6;
+}
+
+.liPrices {
+  margin-bottom: 0;
+}
+
+
+.submit-button {
+  background-color: #2a6496;
+  width: 200px;
+}
+
+#grpAddress {
+  display: none;
+}
+
+.offer {
+  padding: 7px 20px;
+  background-color: rgb(47, 39, 89);
+  font-weight: 600;
+  color: white;
+  text-align: center;
+}
+
+.offer .offer-title {
+  font-size: 32px;
+  margin-bottom: 11px;
+}
+
+.offer ul {
+  margin-left: -30px;
+}
+
+.offer ul li:first-child {
+  border-top: 1px dashed white;
+}
+
+.offer .offer-item {
+  font-size: 20px;
+  font-weight: 600px;
+  font-weight: 600;
+  border-bottom: 1px dashed white;
+}
+
+.offer-subscript {
+  font-size: 14px;
+}
+
+#grpSubmit {
+  float: left;
+}
+
+#grpResult {
+  padding-top: 4px;
+  margin-left: 213px;
+  font-weight: 600;
+}
+
+@media (max-width: 455px){
+  .pricing-item.lesson-prices.intensive h4 {
+    font-size: 23px;
+  }
+
+  .pricing-item ul li.giftVouchers {
+    height: auto;
+  }
+
+  .offer .offer-title {
+    font-size: 25px;
+  }
+
+  .offer .offer-item {
+    font-size: 17px;
+  }
+
+  .offer-subscript {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px){
+  .prices-intensive-lesson {
+    width: 70%;
+  }
+
+  .container.section {
+    padding: 0px 15px 20px 15px;
+  }
+
+  .col-7-override {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #logo-small {
+    padding-left: 15px;
+  }
+
+  .header-phone-contact {
+    padding-left: 15px;
+  }
+
+  span#about, span#intensive-courses, span#driving-lesson-prices, span#areas-covered, span#contact {
+    visibility: hidden;
+  }
+}

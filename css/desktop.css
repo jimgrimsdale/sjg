@@ -1,0 +1,113 @@
+
+/* Desktop */
+@media (min-width: 992px){
+  .header{
+    margin-bottom: 17px;
+  }
+
+  .header .navbar-default .navbar-nav > li > a span.link-title{
+    bottom: 4px;
+    right: 8px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .header .navbar-default .navbar-nav > li > a span.link-title-areas{
+    bottom: 24px;
+    right: 30px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .header .navbar-default .navbar-nav > li > a span.link-title-intensive{
+    bottom: 24px;
+    right: 7px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .header .navbar-default .navbar-nav > li > a i.link-icon{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 25px;
+  }
+
+  .header .navbar-default .navbar-nav > li > a{
+/*    width: 90px;
+    height: 90px;*/
+    margin-left: 2px;
+    margin-bottom: 7px;
+    /*color: #fff;*/
+  }
+
+/*  .header .navbar-default .navbar-nav{
+    margin-top: -5px;
+    margin-bottom: 5px;
+  }*/
+
+  .divHeader {
+    font-size: 36px;
+  }
+
+  .logo h1 {
+    font-size: 36;
+    margin: 0 0 -10px 0;
+    height: 51px;
+    padding-top: 6px;
+  }
+
+
+  .col-5-override {
+    width: 34.666667%;
+  }
+
+  .col-7-override {
+    width: 65.333333%;
+  }
+
+  .pricing-item.large-desktop{
+    /*height: 512px;*/
+  }
+
+/*  .pricing-item.large-desktop-drivingtest {
+    height: 256px;
+  }*/
+
+  .pricing-item.lesson-prices.intensive {
+    margin-top: 0;
+  }
+
+  .resources {
+    padding-top: 3px;
+  }
+
+  .resources a {
+    color: white;
+  }
+
+  .resources a:hover {
+    color: #10DBD2;
+  }
+
+  .displayOnPhone {
+    display: none;
+  }
+
+  .displayOnDesktop {
+    display: block;
+  }
+
+  .pricing-item ul li.giftVouchers {
+    margin-top: 71px;
+  }
+}
+
+@media (min-width: 1200px){
+  .pricing-item.large-desktop{
+    height: 477x;
+  }
+  .resources {
+    padding-top: 12px;
+  }
+}
