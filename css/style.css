@@ -210,9 +210,7 @@ strong {
 }
 
 .heading-main {
-  font-size: 19px;
-/*  font-family: 'Open Sans',
-  sans-serif;*/
+  font-size: 17px;
   line-height: 27px;
   margin: 0;
 }
@@ -265,7 +263,7 @@ strong {
 }
 
 .introductory-offer {
-  font-size: 20px;
+  font-size: 17px;
   padding-bottom: 10px;
   margin-top: 10px;
 }
@@ -334,6 +332,11 @@ strong {
   box-shadow: inset 0px 0px 0px 4px rgba(0,0,0,0.1);
 }
 
+.inner-page.main .pricing-item {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .pricing-item{
   position: relative;
   margin: 0px auto;
@@ -374,6 +377,9 @@ strong {
   font-weight: 300;
 }
 
+.inner-page.main .pricing-item ul{
+  margin-left: -23px;
+}
 
 .pricing-item ul{
   text-align: left;
@@ -612,7 +618,7 @@ strong {
   }
 
   .offer .offer-title {
-    font-size: 25px;
+    font-size: 21px;
   }
 
   .offer .offer-item {
@@ -674,5 +680,9 @@ strong {
 
   .header .navbar-default .navbar-nav > li > a{
     border-radius: 10px;
+  }
+
+  .main-areas-covered {
+    display: none;
   }
 }
