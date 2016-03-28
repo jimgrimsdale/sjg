@@ -18,7 +18,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .container-main {
-  padding-top: 120px;
+  padding-top: 60px;
 }
 .white{
   color:#fff !important;
@@ -70,7 +70,7 @@ strong {
   background-color: #070921;
   width: 100%;
   margin-bottom: 17px;  
-  height: 130px;
+  height: 84px;
 }
 
 .header .navbar {
@@ -86,7 +86,7 @@ strong {
 .header .navbar-default .navbar-collapse{
   border: 0px;
   box-shadow: none;
-  padding: 0px 10px;
+  padding: 0px;
   margin-top: 0px;
   height: auto;
   background-color: #070921;
@@ -97,8 +97,8 @@ strong {
 }
 
 .header .navbar-default .navbar-toggle{
-  margin-top: -126px;
-  margin-bottom: 0px;
+  margin-top: -46px;
+  margin-bottom: 38px;
   margin-right: 0;
   border: 0px;
   border-radius: 2px;
@@ -115,8 +115,8 @@ strong {
   padding: 8px;
   margin-left: 0px;
   margin-bottom: 0px;
-  /*background: none !important;*/
-  /*border-radius: 0px;*/
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .header .navbar-default .navbar-nav > li > a{
@@ -202,6 +202,11 @@ strong {
 
 .header .logo-tablet {
   display: none;
+}
+
+.headaing-main-title {
+  font-weight: 600;
+  font-size: 19px;
 }
 
 .heading-main {
@@ -496,7 +501,7 @@ strong {
 }
 
 .header-phone-contact a {
-  font-size: 19px;
+  font-size: 17px;
   margin-top: -8px;
 }
 
@@ -518,6 +523,7 @@ strong {
    display: inline-block;
    position: relative;
    margin-top: 3px;
+   height: 70px;
 }
 .wrapperResources:after {
   padding-top: 16.6%;
@@ -634,13 +640,39 @@ strong {
 
   #logo-small {
     padding-left: 15px;
+    margin-top: 3px;
   }
 
   .header-phone-contact {
     padding-left: 15px;
+    position: absolute;
+    left: 0px;
+    top: 35px;
+  }
+
+  .header-phone-contact.header-phone {
+    position: absolute;
+    left: 157px;
+    top: 35px;
+    width: 140px;
+  }
+
+  .header-phone-contact.header-lnke {
+    position: absolute;
+    left: 0;
+    top: 55px;
   }
 
   span#about, span#intensive-courses, span#driving-lesson-prices, span#areas-covered, span#contact {
     visibility: hidden;
+  }
+
+  .navbar-nav {
+    margin-left:15px;
+    margin-right:15px;
+  }
+
+  .header .navbar-default .navbar-nav > li > a{
+    border-radius: 10px;
   }
 }

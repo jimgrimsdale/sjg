@@ -8,7 +8,7 @@
   .header .navbar-default .navbar-nav > li > a span.link-title{
     bottom: 4px;
     right: 8px;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 400;
   }
 
@@ -48,6 +48,8 @@
 
   .divHeader {
     font-size: 36px;
+    width: 328px;
+    top: 0;
   }
 
   .logo h1 {
@@ -96,10 +98,32 @@
 
   .displayOnDesktop {
     display: block;
+    margin-bottom: 30px;
   }
 
   .pricing-item ul li.giftVouchers {
     margin-top: 71px;
+  }
+
+  .header-stephen, .header-phone, .header-lnke {
+    font-size: inherit;
+  }
+
+  .header-stephen {
+    right: 340px;
+    top: 21px;
+  }
+
+  .header-phone {
+    width: 120px;
+    right: 221px;
+    top: 21px;
+  }
+
+  .header-lnke {
+    width: 221px;
+    right: 0px;
+    top: 21px;
   }
 }
 
