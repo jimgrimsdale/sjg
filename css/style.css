@@ -207,6 +207,7 @@ strong {
 .headaing-main-title {
   font-weight: 600;
   font-size: 19px;
+  margin-top: 12px;
 }
 
 .heading-main {
@@ -273,7 +274,7 @@ strong {
 }
 
 .introductory-offer-subtext{
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .inner-page.main {
