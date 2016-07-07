@@ -126,6 +126,10 @@
     margin-left: 0px;
   }
 
+  .row .row-ebooks {
+    margin-right: 0;
+  }
+
   .divHeader {
     margin-top: 0px;
     font-size: 31px;

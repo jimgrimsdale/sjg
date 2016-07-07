@@ -130,6 +130,13 @@
     margin-left: -2px;
     margin-right: 2px;
   }
+
+  .row-ebooks {
+    margin-left: -2px;
+    margin-right: 2px;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
 }
 
 @media (min-width: 1200px){
