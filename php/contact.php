@@ -8,10 +8,20 @@
 
   if (!$_POST['name']) {
     $errName = true;
+  } else {
+    $name = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
+    if (strpos($name,'Robertdaw') !== false) {
+      $errName = true;
+    }
   }
 
   if (!$_POST['email'] || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
     $errEmail = true;
+  } else {
+    $email = filter_var($_POST['email'], FILTER_SANITIZE_STRING);
+    if (strpos($email,'bikamikatiifni') !== false) {
+      $errEmail = true;
+    }
   }
 
   if (!$_POST['message']) {
@@ -21,19 +31,6 @@
     if ((strpos($message,'canada') !== false && strpos($message,'goose') !== false)
         || (strpos($message,'canadian') !== false && strpos($message,'goose') !== false)) {
       $errMessage = true;
-
-
-      // $name = 'Me';
-      // $email = 'email';
-      // $message = 'goose spammer attack';
-
-      // $from = 'Sent from: SJG Driving Tuition - Backend'; 
-      // $to = 'jim6788@gmail.com';
-      // $subject = 'spam detected';
-      
-      // $body = "From: $name\nE-Mail: $email\nMessage: $message";
-
-      // mail ($to, $subject, $body, $from);
     }
   }
 

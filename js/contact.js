@@ -57,6 +57,8 @@
   function isSpam() {
     var message = $('#message').val().toLowerCase();
     if ((message.indexOf('canada') !== -1 && message.indexOf('goose') !== -1)
+      || (message.indexOf('cialis') !== -1 && message.indexOf('viagra') !== -1)
+      || (message.indexOf('xrumer') !== -1 && message.indexOf('; windows') !== -1)
       || (message.indexOf('canadian') !== -1 && message.indexOf('goose') !== -1)) {
         return true;
     }
